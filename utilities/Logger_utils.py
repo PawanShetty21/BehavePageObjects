@@ -12,7 +12,7 @@ class Logger:
 
         # Create logger
         curr_time = time.strftime("%m_%d_%Y_%_H:%_M:%_S").replace(":", "_")
-        log_file_name = '/Users/admin/PycharmProjects/BehaveSeleniumPython/logs/' + curr_time + '.log'
+        log_file_name = '/Users/admin/PycharmProjects/BehaveSeleniumPython/logs/' + curr_time + '.txt'
         logger = logging.getLogger(logger_name)
         logger.setLevel(loglevel)
 
